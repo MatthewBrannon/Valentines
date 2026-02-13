@@ -1,0 +1,24 @@
+{
+  "name": "valentines",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MatthewBrannon/Valentines.git"
+  },
+  "author": "MattheBrannon",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MatthewBrannon/Valentines/issues"
+  },
+  "homepage": "https://github.com/MatthewBrannon/Valentines#readme",
+  "dependencies": {
+    "ejs": "^4.0.1",
+    "express": "^5.2.1",
+    "http": "^0.0.1-security"
+  },
+  "description": ""
+}

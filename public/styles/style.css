@@ -1,0 +1,168 @@
+button {
+    display: block;
+    position: absolute;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+    color: #333;
+    line-height: 1.6;
+    height: 100%;
+}
+
+header {
+    background-color: #d12512;
+    color: white;
+    position: sticky;
+    top: 0;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 2.5rem;
+}
+
+.background-pic {
+    background-image: url("./imgs/foxbunny-2349030812.jpg");
+    min-height: 100vh;
+    opacity: 0.70;
+    height: 75%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.cel-background {
+    background-image: url("./imgs/cele.jpg");
+    min-height: 100vh;
+    opacity: 0.70;
+    height: 75%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.main-content {
+    width: 80%;
+    height: 80%;
+    max-width: 1600px;
+    max-height: 750px;
+    background-color: rgba(60, 66, 11, 0.6);
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.hero h2 {
+    font-size: 3rem;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    margin-top: 1rem;
+}
+
+.container-line {
+    padding: 30px 80px
+}
+
+.box {
+    width: 100px;
+    height: 50px;
+    position: absolute;
+    left: 40%;
+}
+
+.cta-button {
+    background-color: #c12fc9;
+    color: white;
+    padding: 15px 30px;
+    text-decoration: none;
+    font-size: 1.1rem;
+    border-radius: 5px;
+    margin-top: 20px;
+    width: 100px;
+    height: 50px;
+    display: inline-block;
+    transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+    background-color: #b9239b;
+}
+
+.features {
+    display: flex;
+    justify-content: space-around;
+    padding: 3rem 2rem;
+    background-color: #fff;
+}
+
+.feature {
+    text-align: center;
+    padding: 1.5rem;
+    max-width: 300px;
+}
+
+.feature i {
+    font-size: 2rem;
+    color: #4CAF50;
+    margin-bottom: 1rem;
+}
+
+
+/*celebration page css*/
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.over{
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.below-over{
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+canvas {
+    cursor: crosshair;
+    display: block;
+    background-image: url("./imgs/cele.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    background-color: #4c5b51;
+}
+
+
+footer {
+    background-color: #9f0101;
+    color: rgb(29, 3, 3);
+    padding: .4rem;
+    text-align: center;
+}
+
+footer p {
+    font-size: 0.9rem;
+}
